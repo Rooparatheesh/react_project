@@ -108,9 +108,7 @@ export default function Footer() {
                   placeholder="Your email"
                   className="flex-1 px-4 py-2 bg-slate-800 text-white text-sm rounded-l-md border border-slate-700 focus:border-blue-500 focus:outline-none transition-colors duration-200"
                 />
-                <button className="px-4 py-2 bg-gradient-to-r from-blue-600 to-purple-600 text-white text-sm font-medium rounded-r-md hover:from-blue-500 hover:to-purple-500 transition-all duration-300">
-                  Subscribe
-                </button>
+                
               </div>
               
               <button className="w-full px-4 py-2 bg-gradient-to-r from-blue-600 to-purple-600 text-white text-sm font-medium rounded-md hover:from-blue-500 hover:to-purple-500 transition-all duration-300">
