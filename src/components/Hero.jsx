@@ -2,13 +2,13 @@ import React from 'react';
 
 export default function Hero() {
   return (
-    <section className="fixed top-0 left-0 w-screen h-screen bg-slate-900 flex items-center justify-center overflow-hidden z-0">
+    <section className="relative bg-slate-900 h-screen w-full flex items-center justify-center overflow-hidden">
       {/* Animated Background */}
-      <div className="absolute top-0 left-0 w-screen h-screen">
+      <div className="absolute inset-0 w-full h-full">
         <img
           src="src/assets/bitcoin-theme.png"
           alt="Bitcoin Theme Background"
-          className="w-screen h-screen object-cover opacity-20"
+          className="w-full h-full object-cover opacity-20"
         />
         <div className="absolute inset-0 bg-gradient-to-br from-slate-900/80 via-slate-900/60 to-blue-900/40"></div>
         
